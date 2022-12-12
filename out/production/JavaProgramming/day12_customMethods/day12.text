@@ -1,0 +1,35 @@
+If you want a method to perform a certain task, only store the code fragments that are needed to perform
+that task.
+
+custom methods are only executed when you call them in the main method. Otherwise it will not be seen in the console.
+
+What ever is called in the "main" method will be executed from top to bottom. So it does not matter where you create the other methods.
+As long as the custom method is called in the main method then it will be executed, even if the custom method was made
+after the main method. It just has to be called in the main method. Just be sure that all the methods are independent of each other.
+You will get error if you try to create a custom method in another method.
+
+If you are creating multiple methods in one class, you can minimize the method through the.
+
+It is important to group the correct code fragments in the method.
+
+Parameters
+Sometimes when creating certain functions, additional information needs to be provided.
+The additional information to the method is known as passing an argument or a parameter.
+When passing a parameter into a method, you are indicating that it is a "must have" for the method, and without the parameter
+the method will not be able to complete its function.
+
+When passing a parameter in a method, those parameters acts as a variable of the method.
+By using this variable, you can use the data that the user is giving you later when the method is called.
+
+The value must be provided to the method in order for the method to display.
+If there is one information that must be passed to the method, that means you need to provide one parameter.
+You need to determine the datatype for the parameter.
+If the method has a parameter, it means you must have a value.
+
+The parameter is created when your are making the method. The argument passed in the method is given when you
+call the method and input the value in the parenthesis.
+
+If you have a parameter, that means information is needed for the method to do its function otherwise it will not work.
+
+
+
